@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!--<a [routerLink]="[ 'home/home-carousel' ]" routerLinkActive="active">Home</a>><br>-->
+<!--<a [routerLink]="[ 'galeria/master-galeria' ]" routerLinkActive="active">CRUD</a>><br>-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Fena Alarmes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" [routerLink]="[ 'home/home-carousel' ]" routerLinkActive="active">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" [routerLink]="[ 'galeria/master-galeria' ]" routerLinkActive="active">Cadastro</a>
+            <a class="nav-item nav-link" href="#">Serviços</a>
+          </div>
+        </div>
+      </nav>
+</header>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+<footer>
+  <div class="card">
+      <div class="card-header">
+          Featured
+      </div>
+      <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+  </div>
+</footer>
+
+
+

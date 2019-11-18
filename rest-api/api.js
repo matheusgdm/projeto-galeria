@@ -12,6 +12,9 @@ api.use(cors());
 api.use(bodyparser.urlencoded({extended: true}));
 api.use(bodyparser.json({limit: '20mb', extended: true}));
 
+// diretorio publico
+api.use('/public', express.static(__dirname + '/public'));
+
 router.get("/", (req, resp)=> resp.json({
     mensagem: "=> API ONLINE..."
 }));
