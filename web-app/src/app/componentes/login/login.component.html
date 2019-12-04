@@ -9,10 +9,10 @@
                   <input type="password" class="form-control" placeholder=" Sua senha: " value="" />
               </div>
               <div class="form-group">
-                  <input type="button" class="btn btn-primary"  href="manter-galeria.componet.html" value="Login"/>
+                  <input type="submit" class="btnSubmit" (click)="entrarSistema()" value="Login"/>
               </div>
               <div class="form-group">
-                  <a class="nav-item nav-link" [routerLink]="['cadastro']" routerLinkActive="active">Ainda não é cadastrado?</a>
+                  <a class="nav-item nav-link" (click)="entrarCadastro()">Ainda não é cadastrado?</a>
               </div>
           </form>
       </div>
