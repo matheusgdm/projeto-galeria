@@ -1,0 +1,15 @@
+.img3Homens{
+  margin-top: 15px;
+  margin-right: 250px;
+  margin-left: 150px;
+  -webkit-box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+  -moz-box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+  box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+}
+
+.escritaSobre{
+  margin-top: 18px;
+  margin-bottom: 23px;
+  font-variant:small-caps;
+  font-size: 20px;
+}

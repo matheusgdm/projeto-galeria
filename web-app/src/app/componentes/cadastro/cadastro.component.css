@@ -1,0 +1,61 @@
+
+.titulo{
+  font-size: 45px;
+  font-variant:small-caps;
+}
+
+.form-group{
+  margin-left: 20px;
+}
+
+.nome{
+  margin-left: -18px;
+  margin-right: 50px;
+}
+
+.nascimento{
+  margin-left: -01px;
+  margin-right: 300px;
+}
+
+.sexo{
+
+}
+
+.emailB{
+  margin-left: -18px;
+  margin-right: -30px;
+}
+
+.senha{
+  margin-left: -1px;
+}
+
+.senhaB{
+  margin-left: -01px;
+  margin-right: 277px;
+}
+
+.tudo{
+  margin-top: -40px;
+  margin-bottom: -30px;
+  margin-left: 90px;
+}
+
+.tudo2{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 160px;
+  margin-right: 300px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  padding: 5%;
+}
+
+.rM{
+  margin-left: 25px;
+}
+
+.cc{
+  margin-left: 105px;
+  margin-top: -37px;
+}

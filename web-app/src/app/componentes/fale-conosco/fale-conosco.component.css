@@ -1,0 +1,35 @@
+.imgM{
+  margin-top: 40px;
+  display: flex;
+  -webkit-box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+  -moz-box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+  box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+}
+
+.escritaM{
+  margin: -168px 600px 110px 180px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  line-height: 35px;
+  font-variant:small-caps;
+  font-size: 19px;
+}
+
+.escritaN{
+  margin: -168px 600px 110px 180px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 35px;
+  font-variant:small-caps;
+  font-size: 19px;
+}
+
+.tudo{
+  margin-bottom: -59px;
+}
+
+.imgN{
+  -webkit-box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+  -moz-box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+  box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+}

@@ -25,4 +25,29 @@ export class GaleriaService {
       caminho, { observe: 'response' }
     );
   }
+
+  getId(id: number): Observable<HttpResponse<RespostaClass>> {
+    return this.http.get<RespostaClass>(
+      `${caminho}/${id}`, { observe: 'response' }
+    );
+  }
+
+  cadastrar(dados: any): Observable<HttpResponse<RespostaClass>> {
+    return this.http.post<RespostaClass>(
+      caminho, dados, { observe: 'response' }
+    );
+  }
+
+  editar(dados: any): Observable<HttpResponse<RespostaClass>> {
+    return this.http.put<RespostaClass>(
+      caminho, dados, { observe: 'response' }
+    );
+  }
+
+  deletar(id: number): Observable<HttpResponse<RespostaClass>> {
+    return this.http.delete<RespostaClass>(
+      `${caminho}/${id}`, { observe: 'response' }
+    );
+  }
+
 }

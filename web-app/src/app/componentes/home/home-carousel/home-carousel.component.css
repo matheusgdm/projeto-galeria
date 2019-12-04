@@ -1,0 +1,21 @@
+.img{
+  float: right;
+  margin-top:80px;
+  margin-right: 75px;
+  -webkit-box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+  -moz-box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+  box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+}
+
+.escritaH{
+  width: 500px;
+  height: 400px;
+  padding-top: 150px;
+  font-variant:small-caps;
+  font-size: 21px;
+  margin-right: 20px;
+}
+
+.tudo{
+  height: 530px;
+}

@@ -75,6 +75,7 @@ router.post("/?", function(req, resp, next){
 
 router.put("/", function(req, resp, next){
     let resposta = new RespostaClass();
+    console.log('dados img: ', req.body.dados_imagem)
     // verificando se recebeu uma imagem
     if(req.body.dados_imagem != null){
         
