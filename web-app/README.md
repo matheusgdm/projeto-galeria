@@ -1,27 +1,20 @@
-# WebApp
+para executar o sistema:
+ 
+ 1 - execute um emulador de bando de dados exemplo: xampp, wampp..
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+ 2 - crie um banco de dados mysql com o nome db_galeira
 
-## Development server
+3 - dentro do banco db_galeira, execute o seguinte script para criar a tabela de registro:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+create table galeria (
+    id_galeria integer unsigned not null auto_increment,
+    titulo varchar(255) null,
+    caminho text null,
+    primary key(id_galeria)
+);
 
-## Code scaffolding
+4 -depois usando um prompt de comando, vai até na pasta do projeto e entre dentro da pasta rest-api, depois execute o comando: node api.js
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+5 - execute outro prompt de comando, vá até a pasta do projeto, entre dentro da pasta web-app, depois execute o comando: npm install e depois para subir o servidor angular execute o comando: ng serve
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+depois no seu navegador digite na url: localhost:4200 e o projeto já vai estar sendo executado.
